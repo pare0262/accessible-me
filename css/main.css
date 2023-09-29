@@ -1,8 +1,9 @@
 body {
   font-family: 'Roboto', Helvetica, sans-serif;
-  background-color: grey;
+  background-color: rgb(221, 221, 221);
   margin: 0;
-  padding: 0;
+  padding: 2rem;
+  padding-right: 2rem;
 }
 
 h1,
@@ -69,3 +70,4 @@ form button {
 .site-footer {
   padding: 2rem 0;
 }
+
