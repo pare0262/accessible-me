@@ -56,12 +56,19 @@
       <div class="contact-section">
         <h2>Contact Us</h2>
         <form role="form" action="thanks.html">
-          <label>Full Name</label>
-          <input type="text" placeholder="Full Name">
-          <input type="text" placeholder="Email">
-          <input type="text" placeholder="Subject">
-          <b>Your Message</b>
-          <textarea></textarea>
+
+          <label for="name">Full Name</label>
+          <input id="name" type="text" placeholder="Full Name">
+
+          <label for="email">Email</label>
+          <input id="email" type="text" placeholder="Email">
+
+          <label for="subject">Subject</label>
+          <input id="subject" type="text" placeholder="Subject">
+
+          <label for="message">Your Message</label>
+          <textarea name="message" id="message" cols="30" rows="10"></textarea>
+
           <button type="submit">Send</button>
         </form>
       </div>
