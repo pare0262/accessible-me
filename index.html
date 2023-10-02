@@ -19,7 +19,7 @@
     </div>   
  </header>
  <main>
-    <nav role="navigation">
+    <nav>
       <div class="main-nav">
         <ul>
           <li><a href="#">Home</a></li>
@@ -32,12 +32,12 @@
     
       <img src="https://placekitten.com/1200/900" alt="kitten" class="banner">
     
-    <div class="main-content">
-      <h2 role="contentinfo">Welcome to Jam Box</h2>
+    <div class="main-content" role="article">
+      <h2>Welcome to Jam Box</h2>
       <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Temporibus laboriosam praesentium nostrum ipsa eveniet, officia deserunt cumque eius esse enim, ipsam accusantium autem nihil quaerat sequi perferendis optio quia veritatis.</p>
       <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Veniam perferendis expedita sed itaque odit ipsam omnis, eos voluptates magni fugit culpa voluptatibus, inventore eaque, eligendi voluptatum! Voluptate iusto error voluptatibus.</p>
     </div> 
-      <div class="owner">
+      <div class="owner" role="region">
         <h2>Meet the owner</h2>
         <ul itemscope itemtype="https://schema.org/Person">
           <li itemprop="name">Name: John Doe</li>
@@ -45,7 +45,7 @@
           <li itemprop="email">Email: johnjoe@jambox.ca</li>
           <li itemprop="telephone">Phone: 613-000-0000</li>
         </ul>
-        <h2 itemscope itemtype="https://schema.org/address">Address</h2>
+        <h2 itemscope itemtype="https://schema.org/address" >Address</h2>
         <p>
           Jambox Studios
           123 Guitar Road,
@@ -55,7 +55,7 @@
       </div>
       <div class="contact-section">
         <h2>Contact Us</h2>
-        <form role="form" action="thanks.html">
+        <form action="thanks.html">
 
           <label for="name">Full Name</label>
           <input id="name" type="text" placeholder="Full Name">
@@ -73,7 +73,7 @@
         </form>
       </div>
   </main>
-    <footer>
+    <footer role="doc-footnote">
       <div class="site-footer">
         &copy; 2021 Jam Box Studios
           <a href="#main" class="skip">Back to Top</a> 
